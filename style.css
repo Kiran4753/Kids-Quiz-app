@@ -30,17 +30,7 @@ body{
     border-bottom: 2px solid black;
 }
 
-/* h1{
-    width: 100%;
-    text-align: center;
-    margin-bottom: 20px;
-}
 
-.score{
-    width: 100%;
-    text-align: right;
-    margin-bottom: 25px;
-} */
 
 .question-container{
     /* background-color: aquamarine; */
@@ -63,7 +53,7 @@ body{
     height: 50px;
     border-radius: 5px;
     border: 1px solid #333;
-    
+    user-select: none;
     display: flex;
     align-items: center;
 
@@ -74,9 +64,12 @@ body{
 }
 
 .right{
-    border: 1px solid #15803d;
+    border: 2px solid #15803d;
 
 }
 .wrong{
-    border: 1px solid #b91c1c;
+    border: 2px solid #b91c1c;
 }
+
+
+
