@@ -14,7 +14,7 @@ body{
 }
 
 .quiz-container{
-    height: 400px;
+    height: 420px;
     width: 600px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
@@ -26,7 +26,7 @@ body{
     align-items: center;
     justify-content: space-between;
     padding-bottom: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     border-bottom: 2px solid black;
 }
 
@@ -39,6 +39,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-bottom: 40px;
 }
 
 .answers{
@@ -71,5 +72,20 @@ body{
     border: 2px solid #b91c1c;
 }
 
+.btn-cont{
+    width: 100%;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.next-btn{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    user-select: none;
+    font-size: 15px;
+    cursor: pointer;
+}
 
